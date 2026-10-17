@@ -48,4 +48,3 @@ footer{text-align:center;padding:2rem;font-size:.8rem;color:var(--muted);border-
 .artist{align-items:center;text-align:center;justify-content:center}
 .artist img{width:96px;height:96px;border-radius:50%;object-fit:cover;border:2px solid var(--accent);margin-bottom:.9rem;background:#111}
 .artist h3{align-self:center}
-.artist.main img{width:120px;height:120px}
