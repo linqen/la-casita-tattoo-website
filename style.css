@@ -31,7 +31,7 @@ h2{font-size:2.1rem;color:var(--accent);text-align:center;margin-bottom:1.2em}
 .cards p{margin:0;color:var(--muted);font-size:.95rem}
 .muted{color:var(--muted);text-align:center}
 .muted a{color:var(--accent)}
-.artists{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1.1rem;margin:1.5rem 0}
+.artists{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem;margin:1.5rem 0}
 .artist{display:flex;flex-direction:column;justify-content:flex-end;min-height:190px;border:1px solid var(--line);border-radius:8px;padding:1.3rem;text-decoration:none;background:linear-gradient(160deg,#1a1a1a,#050505);transition:.2s}
 .artist:hover{border-color:var(--accent);transform:translateY(-3px)}
 .artist h3{display:inline-block;align-self:flex-start;background:var(--accent);color:#000;border-radius:6px;padding:.2rem .7rem;font:600 .85rem 'Archivo',Arial,sans-serif;text-transform:uppercase;letter-spacing:.1em;margin:0 0 .6rem}
@@ -48,3 +48,5 @@ footer{text-align:center;padding:2rem;font-size:.8rem;color:var(--muted);border-
 .artist{align-items:center;text-align:center;justify-content:center}
 .artist img{width:96px;height:96px;border-radius:50%;object-fit:cover;border:2px solid var(--accent);margin-bottom:.9rem;background:#111}
 .artist h3{align-self:center}
+@media(max-width:720px){.artists{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:420px){.artists{grid-template-columns:1fr}}
