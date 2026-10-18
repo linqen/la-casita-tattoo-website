@@ -50,3 +50,9 @@ footer{text-align:center;padding:2rem;font-size:.8rem;color:var(--muted);border-
 .artist h3{align-self:center}
 @media(max-width:720px){.artists{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:420px){.artists{grid-template-columns:1fr}}
+.reviews{text-align:center}
+.rating{font-size:1.4rem;margin:0 0 .3rem}
+.rating strong{color:var(--accent);font-family:'Inknut Antiqua',Georgia,serif;font-weight:400}
+.btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-top:1.5rem}
+.btn-outline{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+.btn-outline:hover{background:var(--accent);color:#000}
